@@ -1,0 +1,4829 @@
+{
+  "success": true,
+  "message": "Fetched test leaderboard.",
+  "data": {
+    "results": [
+      {
+        "rank": 101,
+        "_id": "685a6855d7272c4a4934fad7",
+        "totalMarkScored": 223,
+        "accuracy": 86.5671641791045,
+        "subjects": [
+          {
+            "_id": "685a6855d7272c4a4934fad2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 56,
+            "accuracy": 78.9473684210526
+          },
+          {
+            "_id": "685a6855d7272c4a4934fad3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5
+          },
+          {
+            "_id": "685a6855d7272c4a4934fad4",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667
+          }
+        ],
+        "userId": {
+          "_id": "681c38ac35f29d3c9bb8866e",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocI81gtzEzxn86z2IcxlQiMlzql8sjbNQ-112Pr5U0f9uQCP=s96-c",
+          "name": "Utsav"
+        },
+        "marksGained": 232,
+        "marksLost": 9,
+        "unansweredMarks": 32,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 102,
+        "userId": {
+          "_id": "689f5a18eb4d782319874aa4",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIxfvittEDGjzrhtfXvDXGDpd5XOKf1gfaqVhDL-kB2pLJwEQ=s96-c",
+          "name": "RONAK"
+        },
+        "totalMarkScored": 222,
+        "accuracy": 85.2941176470588,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5,
+            "_id": "68a467f15b3fa42b87cdd54c"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 73,
+            "accuracy": 86.3636363636364,
+            "_id": "68a467f15b3fa42b87cdd54d"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818,
+            "_id": "68a467f15b3fa42b87cdd54e"
+          }
+        ],
+        "_id": "68a467f25b3fa42b87cdf40d",
+        "marksGained": 232,
+        "marksLost": 10,
+        "unansweredMarks": 28,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 84,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 103,
+        "userId": {
+          "_id": "68bd713feb4becb5c97c02fd",
+          "name": "Harshit Krishna",
+          "profilePicture": "https://ui-avatars.com/api/?name=Harshit%20Krishna"
+        },
+        "totalMarkScored": 222,
+        "accuracy": 85.2941176470588,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895,
+            "_id": "68cd7513c814a7eedd3dc0ed"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84,
+            "_id": "68cd7513c814a7eedd3dc0ee"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5,
+            "_id": "68cd7513c814a7eedd3dc0ef"
+          }
+        ],
+        "_id": "68cd7513c814a7eedd3df052",
+        "marksGained": 232,
+        "marksLost": 10,
+        "unansweredMarks": 28,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 104,
+        "_id": "6873cbf0cf7ecf444d9bce67",
+        "totalMarkScored": 222,
+        "accuracy": 96.551724137931,
+        "subjects": [
+          {
+            "_id": "6873cbf0cf7ecf444d9bce62",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 100
+          },
+          {
+            "_id": "6873cbf0cf7ecf444d9bce63",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435
+          },
+          {
+            "_id": "6873cbf0cf7ecf444d9bce64",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455
+          }
+        ],
+        "userId": {
+          "_id": "676eb639bf83dd18936a1d06",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJnlBBl5VSAUyg0ZwFOL-_O3m3UyVhLLzhBwTGAsIeaO3UwHQ=s96-c",
+          "name": "Priyanshu"
+        },
+        "marksGained": 224,
+        "marksLost": 2,
+        "unansweredMarks": 68,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 105,
+        "_id": "6899a198e58f482ccb288bb1",
+        "totalMarkScored": 222,
+        "accuracy": 96.551724137931,
+        "subjects": [
+          {
+            "_id": "6899a198e58f482ccb288bac",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 100
+          },
+          {
+            "_id": "6899a198e58f482ccb288bad",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455
+          },
+          {
+            "_id": "6899a198e58f482ccb288bae",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435
+          }
+        ],
+        "userId": {
+          "_id": "67e61c7a595105b0ad706798",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIk__7Zu-X4i1WdjJIwVhFP0-2WMo0tOHQumDd1bPWKOoRZLg=s96-c",
+          "name": "Aman prakash"
+        },
+        "marksGained": 224,
+        "marksLost": 2,
+        "unansweredMarks": 68,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 106,
+        "userId": {
+          "_id": "6895f06fb9f780537557fd7e",
+          "name": "Ayush kumar sagar",
+          "profilePicture": "https://ui-avatars.com/api/?name=Ayush%20kumar%20sagar"
+        },
+        "totalMarkScored": 221,
+        "accuracy": 89.0625,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90,
+            "_id": "68af4aeaae8b6f34a82b452c"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739,
+            "_id": "68af4aeaae8b6f34a82b452d"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952,
+            "_id": "68af4aeaae8b6f34a82b452e"
+          }
+        ],
+        "_id": "68af4aeaae8b6f34a82b6755",
+        "marksGained": 228,
+        "marksLost": 7,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 107,
+        "_id": "6895f248fc450e50f230409d",
+        "totalMarkScored": 221,
+        "accuracy": 89.0625,
+        "subjects": [
+          {
+            "_id": "6895f248fc450e50f2304098",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "6895f248fc450e50f2304099",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          },
+          {
+            "_id": "6895f248fc450e50f230409a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455
+          }
+        ],
+        "userId": {
+          "_id": "67e01bb8df88cd6e40784f5d",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKiLHevxL25TGYFb6pRZs76MMwGs6bl6eiSSJ_wQOKT714Pikg=s96-c",
+          "name": "Asfakh"
+        },
+        "marksGained": 228,
+        "marksLost": 7,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 108,
+        "_id": "684e862962bec0b2b14987e9",
+        "totalMarkScored": 221,
+        "accuracy": 84.0579710144928,
+        "subjects": [
+          {
+            "_id": "684e862962bec0b2b14987e4",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 65,
+            "accuracy": 85
+          },
+          {
+            "_id": "684e862962bec0b2b14987e5",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "684e862962bec0b2b14987e6",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84
+          }
+        ],
+        "userId": {
+          "_id": "6840093676e023ce5a05c7a9",
+          "name": "KRISH MANDAL",
+          "profilePicture": "https://ui-avatars.com/api/?name=KRISH%20MANDAL"
+        },
+        "marksGained": 232,
+        "marksLost": 11,
+        "unansweredMarks": 24,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 109,
+        "_id": "6885ccaa5e3025421d40a909",
+        "totalMarkScored": 221,
+        "accuracy": 94.9152542372881,
+        "subjects": [
+          {
+            "_id": "6885cca95e3025421d40a902",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          },
+          {
+            "_id": "6885cca95e3025421d40a903",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 88,
+            "accuracy": 100
+          },
+          {
+            "_id": "6885cca95e3025421d40a904",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 100
+          }
+        ],
+        "userId": {
+          "_id": "675e757754e8110a7927aa5c",
+          "name": "Dhruv",
+          "profilePicture": "https://ui-avatars.com/api/?name=Dhruv"
+        },
+        "marksGained": 224,
+        "marksLost": 3,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 110,
+        "_id": "684e5da3d956cbb132460725",
+        "totalMarkScored": 220,
+        "accuracy": 93.3333333333333,
+        "subjects": [
+          {
+            "_id": "684e5da3d956cbb132460720",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          },
+          {
+            "_id": "684e5da3d956cbb132460721",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 100,
+            "accuracy": 100
+          },
+          {
+            "_id": "684e5da3d956cbb132460722",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 50,
+            "accuracy": 86.6666666666667
+          }
+        ],
+        "userId": {
+          "_id": "684df121e4114fb221b0c0d6",
+          "name": "Ayush Raj",
+          "profilePicture": "https://ui-avatars.com/api/?name=Ayush%20Raj"
+        },
+        "marksGained": 224,
+        "marksLost": 4,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 100,
+          "607018ee404ae53194e73d91": 52
+        }
+      },
+      {
+        "rank": 111,
+        "_id": "68737014f832274283cf3bce",
+        "totalMarkScored": 220,
+        "accuracy": 93.3333333333333,
+        "subjects": [
+          {
+            "_id": "68737014f832274283cf3bc9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 54,
+            "accuracy": 87.5
+          },
+          {
+            "_id": "68737014f832274283cf3bca",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 92,
+            "accuracy": 100
+          },
+          {
+            "_id": "68737014f832274283cf3bcb",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905
+          }
+        ],
+        "userId": {
+          "_id": "660c3a3f5a1495fcda559e28",
+          "name": "ARPIT PANDEY",
+          "profilePicture": "https://ui-avatars.com/api/?name=ARPIT%20PANDEY"
+        },
+        "marksGained": 224,
+        "marksLost": 4,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 92,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 112,
+        "_id": "68809283f832274283dfb6fd",
+        "totalMarkScored": 220,
+        "accuracy": 87.6923076923077,
+        "subjects": [
+          {
+            "_id": "68809283f832274283dfb6f8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 51,
+            "accuracy": 73.6842105263158
+          },
+          {
+            "_id": "68809283f832274283dfb6f9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909
+          },
+          {
+            "_id": "68809283f832274283dfb6fa",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 91,
+            "accuracy": 95.8333333333333
+          }
+        ],
+        "userId": {
+          "_id": "6873a246ffbbda41ba98469b",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKaymFP2HfGDNo6UzjWDD2uIqp3gQL3tpndWVRKX8oWwVrE7g=s96-c",
+          "name": "Somyaraj"
+        },
+        "marksGained": 228,
+        "marksLost": 8,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 92
+        }
+      },
+      {
+        "rank": 113,
+        "_id": "686594d4404195f9050234e4",
+        "totalMarkScored": 220,
+        "accuracy": 87.6923076923077,
+        "subjects": [
+          {
+            "_id": "686594d4404195f9050234df",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 49,
+            "accuracy": 81.25
+          },
+          {
+            "_id": "686594d4404195f9050234e0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 90,
+            "accuracy": 92
+          },
+          {
+            "_id": "686594d4404195f9050234e1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5
+          }
+        ],
+        "userId": {
+          "_id": "67acc9abdf96f58210007df6",
+          "name": "Syed Rehan Shah",
+          "profilePicture": "https://ui-avatars.com/api/?name=Syed%20Rehan%20Shah"
+        },
+        "marksGained": 228,
+        "marksLost": 8,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 92,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 114,
+        "_id": "68735399a5a58241c14aa0c6",
+        "totalMarkScored": 219,
+        "accuracy": 86.3636363636364,
+        "subjects": [
+          {
+            "_id": "68735399a5a58241c14aa0c1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          },
+          {
+            "_id": "68735399a5a58241c14aa0c2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "68735399a5a58241c14aa0c3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "68655638c373cef88558da87",
+          "name": "Inder singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Inder%20singh"
+        },
+        "marksGained": 228,
+        "marksLost": 9,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 115,
+        "userId": {
+          "_id": "6896f2da2cb52e25e0027496",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJA72i4akpqcMb2UD-aJQebtRWuwtNebaQuJHMDKg4ro7sVxI1D=s96-c",
+          "name": "Manan"
+        },
+        "totalMarkScored": 219,
+        "accuracy": 91.8032786885246,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 100,
+            "_id": "68b7facadbe388b732e867c0"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84,
+            "_id": "68b7facadbe388b732e867c1"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435,
+            "_id": "68b7facadbe388b732e867c2"
+          }
+        ],
+        "_id": "68b7facadbe388b732e88c5d",
+        "marksGained": 224,
+        "marksLost": 5,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 116,
+        "_id": "6886482fb7292b4256e31ff6",
+        "totalMarkScored": 218,
+        "accuracy": 85.0746268656717,
+        "subjects": [
+          {
+            "_id": "6886482eb7292b4256e31ff1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905
+          },
+          {
+            "_id": "6886482eb7292b4256e31ff2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84
+          },
+          {
+            "_id": "6886482eb7292b4256e31ff3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          }
+        ],
+        "userId": {
+          "_id": "687b470a2c8d9f4296c9c80b",
+          "name": "Utkarsh kumar mishra",
+          "profilePicture": "https://ui-avatars.com/api/?name=Utkarsh%20kumar%20mishra%20"
+        },
+        "marksGained": 228,
+        "marksLost": 10,
+        "unansweredMarks": 32,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 117,
+        "_id": "684ed3ccadbf72b3194c9fbf",
+        "totalMarkScored": 217,
+        "accuracy": 83.8235294117647,
+        "subjects": [
+          {
+            "_id": "684ed3ccadbf72b3194c9fb8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          },
+          {
+            "_id": "684ed3ccadbf72b3194c9fb9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435
+          },
+          {
+            "_id": "684ed3ccadbf72b3194c9fba",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 76.1904761904762
+          }
+        ],
+        "userId": {
+          "_id": "6849b843193a32a0f6e09c0a",
+          "name": "Abhishek Singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Abhishek%20Singh"
+        },
+        "marksGained": 228,
+        "marksLost": 11,
+        "unansweredMarks": 28,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 118,
+        "userId": {
+          "_id": "674ab6c278405abeb2251999",
+          "name": "Sagnik Mitra",
+          "profilePicture": "https://ui-avatars.com/api/?name=Sagnik%20Mitra%20"
+        },
+        "totalMarkScored": 217,
+        "accuracy": 88.8888888888889,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 94.7368421052632,
+            "_id": "68ab16295c816566ce0e7caf"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087,
+            "_id": "68ab16295c816566ce0e7cb0"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381,
+            "_id": "68ab16295c816566ce0e7cb1"
+          }
+        ],
+        "_id": "68ab162a5c816566ce0e9da8",
+        "marksGained": 224,
+        "marksLost": 7,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 119,
+        "_id": "684e6e48adbf72b31947e05e",
+        "totalMarkScored": 217,
+        "accuracy": 88.8888888888889,
+        "subjects": [
+          {
+            "_id": "684e6e48adbf72b31947e059",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "684e6e48adbf72b31947e05a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "684e6e48adbf72b31947e05b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 73,
+            "accuracy": 86.3636363636364
+          }
+        ],
+        "userId": {
+          "_id": "6807008f0fc01bfe17c4f957",
+          "name": "Anush Papnai",
+          "profilePicture": "https://ui-avatars.com/api/?name=Anush%20Papnai"
+        },
+        "marksGained": 224,
+        "marksLost": 7,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 120,
+        "userId": {
+          "_id": "68bb073ee7591c482172be24",
+          "name": "Priyank Shukla",
+          "profilePicture": "https://ui-avatars.com/api/?name=Priyank%20Shukla"
+        },
+        "totalMarkScored": 217,
+        "accuracy": 94.8275862068966,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 55,
+            "accuracy": 93.3333333333333,
+            "_id": "68c67f94a133d823f4c5435f"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952,
+            "_id": "68c67f94a133d823f4c54360"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455,
+            "_id": "68c67f94a133d823f4c54361"
+          }
+        ],
+        "_id": "68c67f94a133d823f4c56cb8",
+        "marksGained": 220,
+        "marksLost": 3,
+        "unansweredMarks": 68,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 121,
+        "userId": {
+          "_id": "669534bfe87224bc6f22f9c9",
+          "name": "Mohit Gupta",
+          "profilePicture": "https://ui-avatars.com/api/?name=Mohit%20Gupta%20l"
+        },
+        "totalMarkScored": 217,
+        "accuracy": 94.8275862068966,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 100,
+            "_id": "68cda0294b9dc83133976c29"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435,
+            "_id": "68cda0294b9dc83133976c2a"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68cda0294b9dc83133976c2b"
+          }
+        ],
+        "_id": "68cda0294b9dc83133979b9a",
+        "marksGained": 220,
+        "marksLost": 3,
+        "unansweredMarks": 68,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 122,
+        "_id": "685faac9cfbbf5a9a59a341d",
+        "totalMarkScored": 216,
+        "accuracy": 87.5,
+        "subjects": [
+          {
+            "_id": "685faac9cfbbf5a9a59a3418",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          },
+          {
+            "_id": "685faac9cfbbf5a9a59a3419",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 96,
+            "accuracy": 100
+          },
+          {
+            "_id": "685faac9cfbbf5a9a59a341a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 76.1904761904762
+          }
+        ],
+        "userId": {
+          "_id": "685df4e9c1cad449a93eeea8",
+          "name": "Kartik Aryan",
+          "profilePicture": "https://ui-avatars.com/api/?name=kartik%20Aryan"
+        },
+        "marksGained": 224,
+        "marksLost": 8,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 96,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 123,
+        "_id": "684e601a7a26fab1b1f118d2",
+        "totalMarkScored": 215,
+        "accuracy": 81.4285714285714,
+        "subjects": [
+          {
+            "_id": "684e601a7a26fab1b1f118cd",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          },
+          {
+            "_id": "684e601a7a26fab1b1f118ce",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          },
+          {
+            "_id": "684e601a7a26fab1b1f118cf",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 80
+          }
+        ],
+        "userId": {
+          "_id": "681237571ca9a0705a8682df",
+          "name": "S Jain",
+          "profilePicture": "https://ui-avatars.com/api/?name=S%20Jain"
+        },
+        "marksGained": 228,
+        "marksLost": 13,
+        "unansweredMarks": 20,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 124,
+        "_id": "68774be19b3740443d49a923",
+        "totalMarkScored": 215,
+        "accuracy": 86.1538461538462,
+        "subjects": [
+          {
+            "_id": "68774be19b3740443d49a91e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 65,
+            "accuracy": 85
+          },
+          {
+            "_id": "68774be19b3740443d49a91f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818
+          },
+          {
+            "_id": "68774be19b3740443d49a920",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087
+          }
+        ],
+        "userId": {
+          "_id": "68444ff526c6ded64f3250f7",
+          "name": "Kaustubh Raj Goswami",
+          "profilePicture": "https://ui-avatars.com/api/?name=Kaustubh%20Raj%20Goswami"
+        },
+        "marksGained": 224,
+        "marksLost": 9,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 125,
+        "userId": {
+          "_id": "68bc62d6ee2f7c5d934ebafa",
+          "name": "Krishang kohli",
+          "profilePicture": "https://ui-avatars.com/api/?name=Krishang%20kohli"
+        },
+        "totalMarkScored": 214,
+        "accuracy": 90.1639344262295,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905,
+            "_id": "68c63e41d2ef397bc28d2f38"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 95,
+            "_id": "68c63e41d2ef397bc28d2f39"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 65,
+            "accuracy": 85,
+            "_id": "68c63e41d2ef397bc28d2f3a"
+          }
+        ],
+        "_id": "68c63e41d2ef397bc28d5649",
+        "marksGained": 220,
+        "marksLost": 6,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 126,
+        "_id": "689897260d4b952aece6913b",
+        "totalMarkScored": 214,
+        "accuracy": 90.1639344262295,
+        "subjects": [
+          {
+            "_id": "689897260d4b952aece69136",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 100
+          },
+          {
+            "_id": "689897260d4b952aece69137",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "689897260d4b952aece69138",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          }
+        ],
+        "userId": {
+          "_id": "6897759254668c2c1af10aa3",
+          "name": "AKSHIT JHA",
+          "profilePicture": "https://ui-avatars.com/api/?name=AKSHIT%20JHA"
+        },
+        "marksGained": 220,
+        "marksLost": 6,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 127,
+        "_id": "68640dd7cf5cd2a7d1671d4b",
+        "totalMarkScored": 214,
+        "accuracy": 84.8484848484848,
+        "subjects": [
+          {
+            "_id": "68640dd6cf5cd2a7d1671d46",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          },
+          {
+            "_id": "68640dd6cf5cd2a7d1671d47",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84
+          },
+          {
+            "_id": "68640dd6cf5cd2a7d1671d48",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          }
+        ],
+        "userId": {
+          "_id": "675da82be94533d11c7b468e",
+          "name": "Viraj Vijay Kapse",
+          "profilePicture": "https://ui-avatars.com/api/?name=Viraj%20Vijay%20Kapse"
+        },
+        "marksGained": 224,
+        "marksLost": 10,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 128,
+        "_id": "684eb6ca359e7fb07db6ce0a",
+        "totalMarkScored": 214,
+        "accuracy": 84.8484848484848,
+        "subjects": [
+          {
+            "_id": "684eb6ca359e7fb07db6ce05",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          },
+          {
+            "_id": "684eb6ca359e7fb07db6ce06",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 78.2608695652174
+          },
+          {
+            "_id": "684eb6ca359e7fb07db6ce07",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909
+          }
+        ],
+        "userId": {
+          "_id": "6705732f7858bdc11b41c697",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKJrJq-fW8MJBi10xLd8LySrW4NKJzFk1pISdzXZm8auz0YbAw=s96-c",
+          "name": "Arth"
+        },
+        "marksGained": 224,
+        "marksLost": 10,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 129,
+        "_id": "68983cd3f7ab332acc20236c",
+        "totalMarkScored": 214,
+        "accuracy": 84.8484848484848,
+        "subjects": [
+          {
+            "_id": "68983cd3f7ab332acc202367",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 89.4736842105263
+          },
+          {
+            "_id": "68983cd3f7ab332acc202368",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087
+          },
+          {
+            "_id": "68983cd3f7ab332acc202369",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 75
+          }
+        ],
+        "userId": {
+          "_id": "67892dac07eb82f4ae875870",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJb8mGNogYqhdz4_4b1y9uRpMbIJQRGdGKyiZ3wYgcsjUAUNf-d=s96-c",
+          "name": "Rajeev"
+        },
+        "marksGained": 224,
+        "marksLost": 10,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 130,
+        "_id": "6829f0e84d52fc6466191d26",
+        "totalMarkScored": 214,
+        "accuracy": 90.1639344262295,
+        "subjects": [
+          {
+            "_id": "6829f0e84d52fc6466191d21",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 93.75
+          },
+          {
+            "_id": "6829f0e84d52fc6466191d22",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 91,
+            "accuracy": 95.8333333333333
+          },
+          {
+            "_id": "6829f0e84d52fc6466191d23",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          }
+        ],
+        "userId": {
+          "_id": "681f4e036e11be5f163cbc5e",
+          "name": "Bibarta Bera",
+          "profilePicture": "https://ui-avatars.com/api/?name=Bibarta%20Bera%20"
+        },
+        "marksGained": 220,
+        "marksLost": 6,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 92,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 131,
+        "userId": {
+          "profilePicture": "https://ui-avatars.com/api/?name=Jatin%20Gaur",
+          "name": "Jatin Gaur",
+          "_id": "67accc779d2e0881105ff0cf"
+        },
+        "totalMarkScored": 214,
+        "accuracy": 90.1639344262295,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 48,
+            "accuracy": 100
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 90,
+            "accuracy": 92
+          }
+        ],
+        "marksGained": 220,
+        "marksLost": 6,
+        "unansweredMarks": 56
+      },
+      {
+        "rank": 132,
+        "_id": "6873f701ef6580445dfd798f",
+        "totalMarkScored": 213,
+        "accuracy": 88.7096774193548,
+        "subjects": [
+          {
+            "_id": "6873f701ef6580445dfd798a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          },
+          {
+            "_id": "6873f701ef6580445dfd798b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455
+          },
+          {
+            "_id": "6873f701ef6580445dfd798c",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          }
+        ],
+        "userId": {
+          "_id": "686dfce966c93d3c204b6f41",
+          "name": "Monu",
+          "profilePicture": "https://ui-avatars.com/api/?name=Monu"
+        },
+        "marksGained": 220,
+        "marksLost": 7,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 133,
+        "_id": "68983d8690bf3f2a9111688a",
+        "totalMarkScored": 213,
+        "accuracy": 94.7368421052632,
+        "subjects": [
+          {
+            "_id": "68983d8590bf3f2a91116885",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 60,
+            "accuracy": 100
+          },
+          {
+            "_id": "68983d8590bf3f2a91116886",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 83,
+            "accuracy": 95.4545454545455
+          },
+          {
+            "_id": "68983d8590bf3f2a91116887",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          }
+        ],
+        "userId": {
+          "_id": "687d1569670c3242b5531e5c",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLSt2oZ5C7vmXaNchpnLcg1kc1fNlKyf4OqUu5Tpt6WQnedGL4=s96-c",
+          "name": "Priyanshu singh"
+        },
+        "marksGained": 216,
+        "marksLost": 3,
+        "unansweredMarks": 72,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 134,
+        "userId": {
+          "profilePicture": "https://ui-avatars.com/api/?name=Ankit%20Kumar",
+          "name": "Ankit Kumar",
+          "_id": "68c6425b65a51286fa42f9e9"
+        },
+        "totalMarkScored": 213,
+        "accuracy": 88.7096774193548,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 57,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905
+          }
+        ],
+        "marksGained": 220,
+        "marksLost": 7,
+        "unansweredMarks": 52
+      },
+      {
+        "rank": 135,
+        "userId": {
+          "_id": "67752b6c73ef414a3611ea58",
+          "name": "Aaryan Singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aaryan%20Singh"
+        },
+        "totalMarkScored": 213,
+        "accuracy": 88.7096774193548,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 57,
+            "accuracy": 83.3333333333333,
+            "_id": "68a43a3d77b35c0b3746dc27"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68a43a3d77b35c0b3746dc28"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68a43a3d77b35c0b3746dc29"
+          }
+        ],
+        "_id": "68a43a3d77b35c0b3746facc",
+        "marksGained": 220,
+        "marksLost": 7,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 136,
+        "_id": "684e69abc8749cb161b87358",
+        "totalMarkScored": 213,
+        "accuracy": 83.5820895522388,
+        "subjects": [
+          {
+            "_id": "684e69abc8749cb161b87353",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 45,
+            "accuracy": 65
+          },
+          {
+            "_id": "684e69abc8749cb161b87354",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087
+          },
+          {
+            "_id": "684e69abc8749cb161b87355",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667
+          }
+        ],
+        "userId": {
+          "_id": "6845b359fec2dbd5ef665154",
+          "name": "Amit Jakhar",
+          "profilePicture": "https://ui-avatars.com/api/?name=Amit%20Jakhar"
+        },
+        "marksGained": 224,
+        "marksLost": 11,
+        "unansweredMarks": 32,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 137,
+        "_id": "687d1136cf7ecf444da7ef22",
+        "totalMarkScored": 212,
+        "accuracy": 87.3015873015873,
+        "subjects": [
+          {
+            "_id": "687d1136cf7ecf444da7ef1d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 100
+          },
+          {
+            "_id": "687d1136cf7ecf444da7ef1e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "687d1136cf7ecf444da7ef1f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          }
+        ],
+        "userId": {
+          "_id": "673a22336507dffaf37260ea",
+          "name": "Swastika Banerjee",
+          "profilePicture": "https://ui-avatars.com/api/?name=Swastika%20Banerjee"
+        },
+        "marksGained": 220,
+        "marksLost": 8,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 138,
+        "_id": "68653116665e65f825ae8530",
+        "totalMarkScored": 212,
+        "accuracy": 82.3529411764706,
+        "subjects": [
+          {
+            "_id": "68653115665e65f825ae852b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          },
+          {
+            "_id": "68653115665e65f825ae852c",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          },
+          {
+            "_id": "68653115665e65f825ae852d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "685fd219412be9aab086990c",
+          "name": "Piyush Sinha",
+          "profilePicture": "https://ui-avatars.com/api/?name=Piyush%20Sinha%20"
+        },
+        "marksGained": 224,
+        "marksLost": 12,
+        "unansweredMarks": 28,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 139,
+        "userId": {
+          "_id": "684975cf640f0596fc210ab5",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocI2pEUM-RSaDW0APcdT81kR2IMyWlZxKq2bRiXO5oR4_SYGXthK=s96-c",
+          "name": "Purnendu Pathak"
+        },
+        "totalMarkScored": 212,
+        "accuracy": 87.3015873015873,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235,
+            "_id": "68aab824cb7f2f3641a8e200"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 77.2727272727273,
+            "_id": "68aab824cb7f2f3641a8e201"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667,
+            "_id": "68aab824cb7f2f3641a8e202"
+          }
+        ],
+        "_id": "68aab824cb7f2f3641a9024d",
+        "marksGained": 220,
+        "marksLost": 8,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 140,
+        "userId": {
+          "_id": "6884f1b7670c3242b55c428b",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocL3yRrKnWKQkmRod6vAvCeTpC8z8fP9ROhWZbR-c_fpx1jpfK4=s96-c",
+          "name": "Anusha Ranasingh"
+        },
+        "totalMarkScored": 211,
+        "accuracy": 91.5254237288136,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444,
+            "_id": "68c6f71c68b6f7836c7e5b7e"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 95,
+            "_id": "68c6f71c68b6f7836c7e5b7f"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68c6f71c68b6f7836c7e5b80"
+          }
+        ],
+        "_id": "68c6f71d68b6f7836c7e8805",
+        "marksGained": 216,
+        "marksLost": 5,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 141,
+        "_id": "684f1ec0270408b076d3cbf3",
+        "totalMarkScored": 211,
+        "accuracy": 85.9375,
+        "subjects": [
+          {
+            "_id": "684f1ec0270408b076d3cbee",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "684f1ec0270408b076d3cbef",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 78.2608695652174
+          },
+          {
+            "_id": "684f1ec0270408b076d3cbf0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "6845d104890498d6161eea4e",
+          "name": "ABHINAV",
+          "profilePicture": "https://ui-avatars.com/api/?name=ABHINAV%20SINGH%20RANA"
+        },
+        "marksGained": 220,
+        "marksLost": 9,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 142,
+        "_id": "684e7629328e1fb3296664cd",
+        "totalMarkScored": 211,
+        "accuracy": 85.9375,
+        "subjects": [
+          {
+            "_id": "684e7629328e1fb3296664c8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          },
+          {
+            "_id": "684e7629328e1fb3296664c9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5
+          },
+          {
+            "_id": "684e7629328e1fb3296664ca",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          }
+        ],
+        "userId": {
+          "_id": "679f0b365322c1ef3022ded7",
+          "name": "Rutv Bhatia",
+          "profilePicture": "https://ui-avatars.com/api/?name=Rutv%20Bhatia"
+        },
+        "marksGained": 220,
+        "marksLost": 9,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 143,
+        "_id": "68a1cd2118bca8271f3782b7",
+        "totalMarkScored": 211,
+        "accuracy": 85.9375,
+        "subjects": [
+          {
+            "_id": "68a1cd2118bca8271f3782b2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 93.75
+          },
+          {
+            "_id": "68a1cd2118bca8271f3782b3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "68a1cd2118bca8271f3782b4",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          }
+        ],
+        "userId": {
+          "_id": "66a334229662c9186fce284f",
+          "name": "Aditi A Shukla",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aditi%20A%20Shukla"
+        },
+        "marksGained": 220,
+        "marksLost": 9,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 144,
+        "_id": "688239ea2c8d9f4296d2f702",
+        "totalMarkScored": 211,
+        "accuracy": 81.1594202898551,
+        "subjects": [
+          {
+            "_id": "688239ea2c8d9f4296d2f6fd",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 72.7272727272727
+          },
+          {
+            "_id": "688239ea2c8d9f4296d2f6fe",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 75
+          },
+          {
+            "_id": "688239ea2c8d9f4296d2f6ff",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435
+          }
+        ],
+        "userId": {
+          "_id": "67f521b77d089f705979da27",
+          "name": "Jahanvi singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Jahanvi%20singh"
+        },
+        "marksGained": 224,
+        "marksLost": 13,
+        "unansweredMarks": 24,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 145,
+        "_id": "68a1c7edaec15226af77d4bc",
+        "totalMarkScored": 210,
+        "accuracy": 80,
+        "subjects": [
+          {
+            "_id": "68a1c7edaec15226af77d4b7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "68a1c7edaec15226af77d4b8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5
+          },
+          {
+            "_id": "68a1c7edaec15226af77d4b9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 57,
+            "accuracy": 69.5652173913043
+          }
+        ],
+        "userId": {
+          "_id": "680643b7a9363fcb9b5b0939",
+          "name": "Tejash",
+          "profilePicture": "https://ui-avatars.com/api/?name=TEJASH"
+        },
+        "marksGained": 224,
+        "marksLost": 14,
+        "unansweredMarks": 20,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 146,
+        "_id": "6820691eb8ff766332fc8f61",
+        "totalMarkScored": 210,
+        "accuracy": 96.3636363636364,
+        "subjects": [
+          {
+            "_id": "6820691eb8ff766332fc8f5c",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 100
+          },
+          {
+            "_id": "6820691eb8ff766332fc8f5d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "6820691eb8ff766332fc8f5e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 94.7368421052632
+          }
+        ],
+        "userId": {
+          "_id": "66bda4f3e95d9f7a9ea281fa",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLdIQIYHcxrsD4glgVZbnAkNLylvkdTslCMAsubFZWViK-GDs4=s96-c",
+          "name": "Ishant"
+        },
+        "marksGained": 212,
+        "marksLost": 2,
+        "unansweredMarks": 80,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 147,
+        "userId": {
+          "_id": "684ac25562bec0b2b12ff7d4",
+          "name": "Sahil",
+          "profilePicture": "https://ui-avatars.com/api/?name=SahilPuri"
+        },
+        "totalMarkScored": 210,
+        "accuracy": 90,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90,
+            "_id": "68a44afe568462fefbfcbfc9"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 53,
+            "accuracy": 82.3529411764706,
+            "_id": "68a44afe568462fefbfcbfca"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435,
+            "_id": "68a44afe568462fefbfcbfcb"
+          }
+        ],
+        "_id": "68a44afe568462fefbfcde7a",
+        "marksGained": 216,
+        "marksLost": 6,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 56,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 148,
+        "userId": {
+          "profilePicture": "https://ui-avatars.com/api/?name=Ramita%20Jaju",
+          "name": "Ramita Jaju",
+          "_id": "67f7d3bc58181a95e19be421"
+        },
+        "totalMarkScored": 210,
+        "accuracy": 90,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 100
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          }
+        ],
+        "marksGained": 216,
+        "marksLost": 6,
+        "unansweredMarks": 60
+      },
+      {
+        "rank": 149,
+        "userId": {
+          "_id": "68bd88ae86d1e26f1f1183a2",
+          "name": "Kushagra Verma",
+          "profilePicture": "https://ui-avatars.com/api/?name=Kushagra%20Verma"
+        },
+        "totalMarkScored": 210,
+        "accuracy": 84.6153846153846,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889,
+            "_id": "68c6af28cff560baa5a84c0d"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435,
+            "_id": "68c6af28cff560baa5a84c0e"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 70.8333333333333,
+            "_id": "68c6af28cff560baa5a84c0f"
+          }
+        ],
+        "_id": "68c6af28cff560baa5a876e6",
+        "marksGained": 220,
+        "marksLost": 10,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 150,
+        "userId": {
+          "_id": "68b7c72017cad4909138e17e",
+          "name": "Hridyansh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Hridyansh%20"
+        },
+        "totalMarkScored": 210,
+        "accuracy": 90,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889,
+            "_id": "68c66319ac6261a0de0b9f05"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 73,
+            "accuracy": 86.3636363636364,
+            "_id": "68c66319ac6261a0de0b9f06"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 95,
+            "_id": "68c66319ac6261a0de0b9f07"
+          }
+        ],
+        "_id": "68c66319ac6261a0de0bc706",
+        "marksGained": 216,
+        "marksLost": 6,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 151,
+        "userId": {
+          "_id": "68c6f4fb77cd3f2424ce1450",
+          "name": "Vaishnavi Tiwari",
+          "profilePicture": "https://ui-avatars.com/api/?name=Vaishnavi%20Tiwari"
+        },
+        "totalMarkScored": 210,
+        "accuracy": 90,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 88.2352941176471,
+            "_id": "68cd574976fc972d82127f26"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68cd574976fc972d82127f27"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905,
+            "_id": "68cd574976fc972d82127f28"
+          }
+        ],
+        "_id": "68cd574976fc972d8212ae77",
+        "marksGained": 216,
+        "marksLost": 6,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 152,
+        "_id": "68818ea99f870641fa6a51bc",
+        "totalMarkScored": 210,
+        "accuracy": 76,
+        "subjects": [
+          {
+            "_id": "68818ea99f870641fa6a51b7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 55,
+            "accuracy": 64
+          },
+          {
+            "_id": "68818ea99f870641fa6a51b8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 76
+          },
+          {
+            "_id": "68818ea99f870641fa6a51b9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 85,
+            "accuracy": 88
+          }
+        ],
+        "userId": {
+          "_id": "6849938a193a32a0f6df64dc",
+          "name": "Rishika Gupta",
+          "profilePicture": "https://ui-avatars.com/api/?name=Rishika%20Gupta"
+        },
+        "marksGained": 228,
+        "marksLost": 18,
+        "unansweredMarks": 0,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 153,
+        "_id": "68204877019eff65ae4dcab6",
+        "totalMarkScored": 209,
+        "accuracy": 83.3333333333333,
+        "subjects": [
+          {
+            "_id": "68204877019eff65ae4dcab1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 95
+          },
+          {
+            "_id": "68204877019eff65ae4dcab2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "68204877019eff65ae4dcab3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 72.7272727272727
+          }
+        ],
+        "userId": {
+          "_id": "68038574bc7722cda2455b5c",
+          "name": "XyaaGaming",
+          "profilePicture": "https://ui-avatars.com/api/?name=Hindole"
+        },
+        "marksGained": 220,
+        "marksLost": 11,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 154,
+        "userId": {
+          "_id": "68bebd10cf352eca43f128a1",
+          "name": "Murtaza Sakarwala",
+          "profilePicture": "https://ui-avatars.com/api/?name=Murtaza%20Sakarwala"
+        },
+        "totalMarkScored": 209,
+        "accuracy": 83.3333333333333,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90,
+            "_id": "68c70878e3c473d284ec2b43"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5,
+            "_id": "68c70878e3c473d284ec2b44"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 72.7272727272727,
+            "_id": "68c70878e3c473d284ec2b45"
+          }
+        ],
+        "_id": "68c70878e3c473d284ec57f0",
+        "marksGained": 220,
+        "marksLost": 11,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 155,
+        "userId": {
+          "_id": "68b71cfb3560c9aa6b4fc7be",
+          "name": "Sameer Kumar",
+          "profilePicture": "https://ui-avatars.com/api/?name=Sameer%20Kumar"
+        },
+        "totalMarkScored": 209,
+        "accuracy": 83.3333333333333,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68c673143628d9fc5b98ad88"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 81,
+            "accuracy": 87.5,
+            "_id": "68c673143628d9fc5b98ad89"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 76.1904761904762,
+            "_id": "68c673143628d9fc5b98ad8a"
+          }
+        ],
+        "_id": "68c673143628d9fc5b98d655",
+        "marksGained": 220,
+        "marksLost": 11,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 156,
+        "userId": {
+          "_id": "689f5cd565f0f5286fc555ea",
+          "name": "Sitanshu Singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Sitanshu%20Singh"
+        },
+        "totalMarkScored": 209,
+        "accuracy": 88.5245901639344,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235,
+            "_id": "68aef43237fa63ead848bf9c"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739,
+            "_id": "68aef43237fa63ead848bf9d"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 74,
+            "accuracy": 90.4761904761905,
+            "_id": "68aef43237fa63ead848bf9e"
+          }
+        ],
+        "_id": "68aef43337fa63ead848e185",
+        "marksGained": 216,
+        "marksLost": 7,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 157,
+        "userId": {
+          "_id": "68bd9df147569062034cd4af",
+          "name": "ashutosh bhardwaj",
+          "profilePicture": "https://ui-avatars.com/api/?name=ashutosh%20bhardwaj"
+        },
+        "totalMarkScored": 208,
+        "accuracy": 87.0967741935484,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 100,
+            "_id": "68c7195233e05fa16384b742"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 73.9130434782609,
+            "_id": "68c7195233e05fa16384b743"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90,
+            "_id": "68c7195233e05fa16384b744"
+          }
+        ],
+        "_id": "68c7195233e05fa16384e413",
+        "marksGained": 216,
+        "marksLost": 8,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 158,
+        "userId": {
+          "_id": "689f7bced0b5122620932bf9",
+          "name": "Lakshay Malik",
+          "profilePicture": "https://ui-avatars.com/api/?name=Lakshay%20Malik"
+        },
+        "totalMarkScored": 208,
+        "accuracy": 77.7777777777778,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818,
+            "_id": "68b3fec2986a1ff9f272e747"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 80,
+            "_id": "68b3fec2986a1ff9f272e748"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 65,
+            "accuracy": 72,
+            "_id": "68b3fec2986a1ff9f272e749"
+          }
+        ],
+        "_id": "68b3fec2986a1ff9f2730ab8",
+        "marksGained": 224,
+        "marksLost": 16,
+        "unansweredMarks": 12,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 159,
+        "_id": "684e59eb359e7fb07db24da8",
+        "totalMarkScored": 208,
+        "accuracy": 92.9824561403509,
+        "subjects": [
+          {
+            "_id": "684e59eb359e7fb07db24d9f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 89.4736842105263
+          },
+          {
+            "_id": "684e59eb359e7fb07db24da0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952
+          },
+          {
+            "_id": "684e59eb359e7fb07db24da1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235
+          }
+        ],
+        "userId": {
+          "_id": "6833d1662064d16446c7004e",
+          "name": "MANYA TIWARI",
+          "profilePicture": "https://ui-avatars.com/api/?name=MANYA%20TIWARI"
+        },
+        "marksGained": 212,
+        "marksLost": 4,
+        "unansweredMarks": 72,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 160,
+        "userId": {
+          "_id": "6890d52214563353498c1852",
+          "name": "Pratham Kumar",
+          "profilePicture": "https://ui-avatars.com/api/?name=Pratham%20Kumar"
+        },
+        "totalMarkScored": 208,
+        "accuracy": 87.0967741935484,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889,
+            "_id": "68b31e9f73cf5ac843390829"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304,
+            "_id": "68b31e9f73cf5ac84339082a"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68b31e9f73cf5ac84339082b"
+          }
+        ],
+        "_id": "68b31e9f73cf5ac843392b2e",
+        "marksGained": 216,
+        "marksLost": 8,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 161,
+        "userId": {
+          "_id": "65a3e1a6765cf01f8df4b835",
+          "name": "Abhinav",
+          "profilePicture": "https://ui-avatars.com/api/?name=Abhinav"
+        },
+        "totalMarkScored": 208,
+        "accuracy": 87.0967741935484,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 88.2352941176471,
+            "_id": "68aafa1c04cdc569753a433c"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739,
+            "_id": "68aafa1c04cdc569753a433d"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68aafa1c04cdc569753a433e"
+          }
+        ],
+        "_id": "68aafa1c04cdc569753a63e9",
+        "marksGained": 216,
+        "marksLost": 8,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 162,
+        "_id": "68526207bc7003b18134e562",
+        "totalMarkScored": 208,
+        "accuracy": 87.0967741935484,
+        "subjects": [
+          {
+            "_id": "68526207bc7003b18134e55d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 54,
+            "accuracy": 87.5
+          },
+          {
+            "_id": "68526207bc7003b18134e55e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818
+          },
+          {
+            "_id": "68526207bc7003b18134e55f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667
+          }
+        ],
+        "userId": {
+          "_id": "68486e8938d0b5d83a37c8e7",
+          "name": "Hardik",
+          "profilePicture": "https://ui-avatars.com/api/?name=Hardik%20Chhabra"
+        },
+        "marksGained": 216,
+        "marksLost": 8,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 163,
+        "_id": "687c7f5bf832274283dac4ab",
+        "totalMarkScored": 208,
+        "accuracy": 87.0967741935484,
+        "subjects": [
+          {
+            "_id": "687c7f5bf832274283dac4a6",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 50,
+            "accuracy": 86.6666666666667
+          },
+          {
+            "_id": "687c7f5bf832274283dac4a7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84
+          },
+          {
+            "_id": "687c7f5bf832274283dac4a8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909
+          }
+        ],
+        "userId": {
+          "_id": "66be3c7b5e9ce4799cf1a903",
+          "name": "Manik Paul",
+          "profilePicture": "https://ui-avatars.com/api/?name=Manik%20Paul"
+        },
+        "marksGained": 216,
+        "marksLost": 8,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 164,
+        "_id": "6862e1199540f8a995d6220f",
+        "totalMarkScored": 207,
+        "accuracy": 80.8823529411765,
+        "subjects": [
+          {
+            "_id": "6862e1199540f8a995d6220a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "6862e1199540f8a995d6220b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 73.9130434782609
+          },
+          {
+            "_id": "6862e1199540f8a995d6220c",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          }
+        ],
+        "userId": {
+          "_id": "66707b30bd1160e65100fd47",
+          "name": "Aniket  Upadhyay",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aniket%20%20Upadhyay"
+        },
+        "marksGained": 220,
+        "marksLost": 13,
+        "unansweredMarks": 28,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 80,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 165,
+        "_id": "688599bbfefcb6431543a4ba",
+        "totalMarkScored": 207,
+        "accuracy": 76.7123287671233,
+        "subjects": [
+          {
+            "_id": "688599bbfefcb6431543a4b5",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          },
+          {
+            "_id": "688599bbfefcb6431543a4b6",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 60,
+            "accuracy": 68
+          },
+          {
+            "_id": "688599bbfefcb6431543a4b7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          }
+        ],
+        "userId": {
+          "_id": "68185ced2daa7fb1feef71c1",
+          "name": "Affaan Quadri",
+          "profilePicture": "https://ui-avatars.com/api/?name=Affaan%20Quadri%20"
+        },
+        "marksGained": 224,
+        "marksLost": 17,
+        "unansweredMarks": 8,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 166,
+        "userId": {
+          "_id": "689f5844b078e4227a8419e3",
+          "name": "Muskan Mishra",
+          "profilePicture": "https://ui-avatars.com/api/?name=Muskan%20Mishra"
+        },
+        "totalMarkScored": 207,
+        "accuracy": 85.7142857142857,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 89.4736842105263,
+            "_id": "68b16603472257e51b5c4f20"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68b16603472257e51b5c4f21"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739,
+            "_id": "68b16603472257e51b5c4f22"
+          }
+        ],
+        "_id": "68b16604472257e51b5c7195",
+        "marksGained": 216,
+        "marksLost": 9,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 167,
+        "userId": {
+          "_id": "6802a9d65739d9cdb2dd721e",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIBDXdyVsc6KC1FlOeOfrzWzVY1EtPiwdsBRE_3_4T6GMcNFg=s96-c",
+          "name": "Raiyan Ahmad"
+        },
+        "totalMarkScored": 207,
+        "accuracy": 85.7142857142857,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895,
+            "_id": "68b4346ff43459fc4de55497"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68b4346ff43459fc4de55498"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304,
+            "_id": "68b4346ff43459fc4de55499"
+          }
+        ],
+        "_id": "68b4346ff43459fc4de5782c",
+        "marksGained": 216,
+        "marksLost": 9,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 168,
+        "_id": "688245c789473d419a0a9669",
+        "totalMarkScored": 206,
+        "accuracy": 84.375,
+        "subjects": [
+          {
+            "_id": "688245c789473d419a0a9664",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          },
+          {
+            "_id": "688245c789473d419a0a9665",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 73,
+            "accuracy": 86.3636363636364
+          },
+          {
+            "_id": "688245c789473d419a0a9666",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 79.1666666666667
+          }
+        ],
+        "userId": {
+          "_id": "68711adc5f190443d5516c6d",
+          "name": "Shravani",
+          "profilePicture": "https://ui-avatars.com/api/?name=Shravani%20Patil"
+        },
+        "marksGained": 216,
+        "marksLost": 10,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 169,
+        "_id": "6860f22c0d2598a7eab3f2db",
+        "totalMarkScored": 206,
+        "accuracy": 89.8305084745763,
+        "subjects": [
+          {
+            "_id": "6860f22b0d2598a7eab3f2d6",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          },
+          {
+            "_id": "6860f22b0d2598a7eab3f2d7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "6860f22b0d2598a7eab3f2d8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "685d5e17d319c549e9609e81",
+          "name": "Harshith Varma",
+          "profilePicture": "https://ui-avatars.com/api/?name=Harshith%20Varma"
+        },
+        "marksGained": 212,
+        "marksLost": 6,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 170,
+        "userId": {
+          "_id": "689f69beecef4627cfddfc81",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIQVnPZC03wEeEcPnEj7fQSJEdnafZ2ux3yf1vfKtmL4j6E=s96-c",
+          "name": "Nakshatra Saxena"
+        },
+        "totalMarkScored": 206,
+        "accuracy": 89.8305084745763,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 93.75,
+            "_id": "68ab1be5a2945bf664d5a234"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 81.8181818181818,
+            "_id": "68ab1be5a2945bf664d5a235"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952,
+            "_id": "68ab1be5a2945bf664d5a236"
+          }
+        ],
+        "_id": "68ab1be5a2945bf664d5c339",
+        "marksGained": 212,
+        "marksLost": 6,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 171,
+        "_id": "6873616389e471435511f38b",
+        "totalMarkScored": 206,
+        "accuracy": 84.375,
+        "subjects": [
+          {
+            "_id": "6873616389e471435511f386",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 77.7777777777778
+          },
+          {
+            "_id": "6873616389e471435511f387",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "6873616389e471435511f388",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "66efb632200cd0fd693d25a2",
+          "name": "Sooryansh Mishra",
+          "profilePicture": "https://ui-avatars.com/api/?name=Sooryansh%20Mishra"
+        },
+        "marksGained": 216,
+        "marksLost": 10,
+        "unansweredMarks": 44,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 172,
+        "userId": {
+          "_id": "674876832fd730aa57124fbf",
+          "name": "Shreyansh Rai",
+          "profilePicture": "https://ui-avatars.com/api/?name=Shreyansh%20Rai"
+        },
+        "totalMarkScored": 206,
+        "accuracy": 89.8305084745763,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 51,
+            "accuracy": 92.8571428571429,
+            "_id": "68c25bb1b5e53397c8d51563"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333,
+            "_id": "68c25bb1b5e53397c8d51564"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952,
+            "_id": "68c25bb1b5e53397c8d51565"
+          }
+        ],
+        "_id": "68c25bb2b5e53397c8d53bcc",
+        "marksGained": 212,
+        "marksLost": 6,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 173,
+        "userId": {
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIV_FlpB1Gkqoq8hulCKLh4N6Tild6tNXg81CgGutYd9wMnEUVz=s96-c",
+          "name": "Sagnik",
+          "_id": "67052a57969a68c03fb61fb2"
+        },
+        "totalMarkScored": 206,
+        "accuracy": 96.2962962962963,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 43,
+            "accuracy": 91.6666666666667
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 84,
+            "accuracy": 100
+          }
+        ],
+        "marksGained": 208,
+        "marksLost": 2,
+        "unansweredMarks": 84
+      },
+      {
+        "rank": 174,
+        "_id": "684edc9119a440b05d8dc0b5",
+        "totalMarkScored": 206,
+        "accuracy": 89.8305084745763,
+        "subjects": [
+          {
+            "_id": "684edc9119a440b05d8dc0b0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 36,
+            "accuracy": 100
+          },
+          {
+            "_id": "684edc9119a440b05d8dc0b1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 100,
+            "accuracy": 100
+          },
+          {
+            "_id": "684edc9119a440b05d8dc0b2",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 76
+          }
+        ],
+        "userId": {
+          "_id": "66ff95d103b7ad6b4f87298d",
+          "name": "Pryandeep",
+          "profilePicture": "https://ui-avatars.com/api/?name=Pryandeep"
+        },
+        "marksGained": 212,
+        "marksLost": 6,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 36,
+          "607018ee404ae53194e73d90": 100,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 175,
+        "userId": {
+          "_id": "689f748377d1e728af822477",
+          "name": "Siddhartha Singh",
+          "profilePicture": "https://ui-avatars.com/api/?name=Siddhartha"
+        },
+        "totalMarkScored": 205,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68b20cd8164ab19150bc677f"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857,
+            "_id": "68b20cd8164ab19150bc6780"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 89.4736842105263,
+            "_id": "68b20cd8164ab19150bc6781"
+          }
+        ],
+        "_id": "68b20cd9164ab19150bc8a1c",
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 176,
+        "_id": "68a06b091945b8285fc056b0",
+        "totalMarkScored": 205,
+        "accuracy": 83.0769230769231,
+        "subjects": [
+          {
+            "_id": "68a06b091945b8285fc056ab",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          },
+          {
+            "_id": "68a06b091945b8285fc056ac",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 69,
+            "accuracy": 85.7142857142857
+          },
+          {
+            "_id": "68a06b091945b8285fc056ad",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 78.2608695652174
+          }
+        ],
+        "userId": {
+          "_id": "67fa8bbdd100c3a129db2aa6",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLSY9uLZwuegaifUoqu6VoGyD-o8QUocpU3kHETA9ABmmc-gA=s96-c",
+          "name": "SAUMYA"
+        },
+        "marksGained": 216,
+        "marksLost": 11,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 72
+        }
+      },
+      {
+        "rank": 177,
+        "_id": "6820af82e30e3c65be891c93",
+        "totalMarkScored": 205,
+        "accuracy": 94.5454545454546,
+        "subjects": [
+          {
+            "_id": "6820af82e30e3c65be891c8b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 100
+          },
+          {
+            "_id": "6820af82e30e3c65be891c8c",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952
+          },
+          {
+            "_id": "6820af82e30e3c65be891c8d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          }
+        ],
+        "userId": {
+          "_id": "6820705d42f15064167bf57a",
+          "name": "Kashi",
+          "profilePicture": "https://ui-avatars.com/api/?name=Kashi"
+        },
+        "marksGained": 208,
+        "marksLost": 3,
+        "unansweredMarks": 80,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 178,
+        "_id": "6885c3e1ad0cd043a52adc5c",
+        "totalMarkScored": 205,
+        "accuracy": 83.0769230769231,
+        "subjects": [
+          {
+            "_id": "6885c3e1ad0cd043a52adc57",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          },
+          {
+            "_id": "6885c3e1ad0cd043a52adc58",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 78.2608695652174
+          },
+          {
+            "_id": "6885c3e1ad0cd043a52adc59",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          }
+        ],
+        "userId": {
+          "_id": "6884fb96f7488c43f5145d2a",
+          "name": "Gaurav Goswami",
+          "profilePicture": "https://ui-avatars.com/api/?name=Gaurav%20Goswami"
+        },
+        "marksGained": 216,
+        "marksLost": 11,
+        "unansweredMarks": 40,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 179,
+        "_id": "6873dbe0a5a29543c573d5a2",
+        "totalMarkScored": 205,
+        "accuracy": 88.3333333333333,
+        "subjects": [
+          {
+            "_id": "6873dbe0a5a29543c573d59d",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 50,
+            "accuracy": 86.6666666666667
+          },
+          {
+            "_id": "6873dbe0a5a29543c573d59e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "6873dbe0a5a29543c573d59f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909
+          }
+        ],
+        "userId": {
+          "_id": "67e3a64c4b67fb8e9937737d",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJrNAQPdHmk0Z6pST0iOASFZK5nC89A6nRrSOrK9agJVBKb55sf=s96-c",
+          "name": "Purvanshi"
+        },
+        "marksGained": 212,
+        "marksLost": 7,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 180,
+        "_id": "684fbae232f8f1b2a13a0e6e",
+        "totalMarkScored": 205,
+        "accuracy": 88.3333333333333,
+        "subjects": [
+          {
+            "_id": "684fbae232f8f1b2a13a0e69",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 50,
+            "accuracy": 86.6666666666667
+          },
+          {
+            "_id": "684fbae232f8f1b2a13a0e6a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "684fbae232f8f1b2a13a0e6b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952
+          }
+        ],
+        "userId": {
+          "_id": "67362434c9f231fafbfd8333",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIrUO0t4oaP751rMFyxr9xelYnhDqxjDhovPzrwTnPXd92Kjg=s96-c",
+          "name": "pavan"
+        },
+        "marksGained": 212,
+        "marksLost": 7,
+        "unansweredMarks": 60,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 181,
+        "_id": "684ece84e7b2cfb21147cc67",
+        "totalMarkScored": 204,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "_id": "684ece84e7b2cfb21147cc62",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 75,
+            "accuracy": 95
+          },
+          {
+            "_id": "684ece84e7b2cfb21147cc63",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "684ece84e7b2cfb21147cc64",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 52,
+            "accuracy": 77.7777777777778
+          }
+        ],
+        "userId": {
+          "_id": "684a06595b140aa2ce983b38",
+          "name": "Aditi",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aditi%20Singh"
+        },
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 76,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 56
+        }
+      },
+      {
+        "rank": 182,
+        "_id": "68988186ed05352d35eed423",
+        "totalMarkScored": 204,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "_id": "68988186ed05352d35eed41e",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 94.7368421052632
+          },
+          {
+            "_id": "68988186ed05352d35eed41f",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "68988186ed05352d35eed420",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          }
+        ],
+        "userId": {
+          "_id": "68962e2484fd22514e54328b",
+          "name": "ADRITA",
+          "profilePicture": "https://ui-avatars.com/api/?name=ADRITA%20BISWAS"
+        },
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 183,
+        "_id": "6860b98fcfbbf5a9a59b8641",
+        "totalMarkScored": 204,
+        "accuracy": 92.8571428571429,
+        "subjects": [
+          {
+            "_id": "6860b98ecfbbf5a9a59b8638",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 71,
+            "accuracy": 94.7368421052632
+          },
+          {
+            "_id": "6860b98ecfbbf5a9a59b8639",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90
+          },
+          {
+            "_id": "6860b98ecfbbf5a9a59b863a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235
+          }
+        ],
+        "userId": {
+          "_id": "684e75fb32f8f1b2a130d51d",
+          "name": "Shreshth",
+          "profilePicture": "https://ui-avatars.com/api/?name=Shreshth"
+        },
+        "marksGained": 208,
+        "marksLost": 4,
+        "unansweredMarks": 76,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 72,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 184,
+        "_id": "68984bc2ed05352d35edc3eb",
+        "totalMarkScored": 204,
+        "accuracy": 92.8571428571429,
+        "subjects": [
+          {
+            "_id": "68984bc2ed05352d35edc3e6",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235
+          },
+          {
+            "_id": "68984bc2ed05352d35edc3e7",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 95,
+            "accuracy": 96
+          },
+          {
+            "_id": "68984bc2ed05352d35edc3e8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 46,
+            "accuracy": 85.7142857142857
+          }
+        ],
+        "userId": {
+          "_id": "68921196d6887753398b53bb",
+          "name": "drishti",
+          "profilePicture": "https://ui-avatars.com/api/?name=drishti"
+        },
+        "marksGained": 208,
+        "marksLost": 4,
+        "unansweredMarks": 76,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 96,
+          "607018ee404ae53194e73d91": 48
+        }
+      },
+      {
+        "rank": 185,
+        "_id": "688721203355b943e5e348b3",
+        "totalMarkScored": 204,
+        "accuracy": 81.8181818181818,
+        "subjects": [
+          {
+            "_id": "688721203355b943e5e348ae",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 55,
+            "accuracy": 75
+          },
+          {
+            "_id": "688721203355b943e5e348af",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 85,
+            "accuracy": 88
+          },
+          {
+            "_id": "688721203355b943e5e348b0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          }
+        ],
+        "userId": {
+          "_id": "6789d472b74a81f6322c0ca2",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLTJ3Ro7R0VPhMgdgRwy2nYREpAWahcXFoSwjVfc15mwl0AiiXb=s96-c",
+          "name": "Shivpratap V Maurya"
+        },
+        "marksGained": 216,
+        "marksLost": 12,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 186,
+        "userId": {
+          "_id": "68bb1a7ce7591c48217476de",
+          "name": "Ayaan Hussain",
+          "profilePicture": "https://ui-avatars.com/api/?name=Ayaan%20Hussain"
+        },
+        "totalMarkScored": 204,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 50,
+            "accuracy": 70,
+            "_id": "68cafd435f357779c674811a"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 100,
+            "_id": "68cafd435f357779c674811b"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667,
+            "_id": "68cafd435f357779c674811c"
+          }
+        ],
+        "_id": "68cafd445f357779c674afef",
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 68,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 187,
+        "_id": "6873dce19f870641fa59acf4",
+        "totalMarkScored": 204,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "_id": "6873dce19f870641fa59acef",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 45,
+            "accuracy": 80
+          },
+          {
+            "_id": "6873dce19f870641fa59acf0",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 73,
+            "accuracy": 86.3636363636364
+          },
+          {
+            "_id": "6873dce19f870641fa59acf1",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 86,
+            "accuracy": 91.6666666666667
+          }
+        ],
+        "userId": {
+          "_id": "686401db8365cea9156118ab",
+          "name": "Aashish Ranjan",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aashish%20Ranjan"
+        },
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 48,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 188,
+        "userId": {
+          "_id": "68bb167ba4c1a05b3fd0d80a",
+          "name": "Divyanka Tiwary",
+          "profilePicture": "https://ui-avatars.com/api/?name=Divyanka%20Tiwary%20"
+        },
+        "totalMarkScored": 204,
+        "accuracy": 86.8852459016393,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 40,
+            "accuracy": 73.3333333333333,
+            "_id": "68c66f2e2f85046900193cf4"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304,
+            "_id": "68c66f2e2f85046900193cf5"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 87,
+            "accuracy": 95.6521739130435,
+            "_id": "68c66f2e2f85046900193cf6"
+          }
+        ],
+        "_id": "68c66f2e2f85046900196585",
+        "marksGained": 212,
+        "marksLost": 8,
+        "unansweredMarks": 56,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 44,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 88
+        }
+      },
+      {
+        "rank": 189,
+        "userId": {
+          "_id": "68bb09207c4c535bb17b49ec",
+          "name": "Vineet Sharma",
+          "profilePicture": "https://ui-avatars.com/api/?name=Vineet%20Sharma"
+        },
+        "totalMarkScored": 204,
+        "accuracy": 81.8181818181818,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 39,
+            "accuracy": 68.75,
+            "_id": "68c6e21c814e50951439e415"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 85,
+            "accuracy": 88,
+            "_id": "68c6e21c814e50951439e416"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 80,
+            "accuracy": 84,
+            "_id": "68c6e21c814e50951439e417"
+          }
+        ],
+        "_id": "68c6e21c814e5095143a1052",
+        "marksGained": 216,
+        "marksLost": 12,
+        "unansweredMarks": 36,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 44,
+          "607018ee404ae53194e73d90": 88,
+          "607018ee404ae53194e73d91": 84
+        }
+      },
+      {
+        "rank": 190,
+        "_id": "68738577ad0cd043a5139c2e",
+        "totalMarkScored": 203,
+        "accuracy": 85.4838709677419,
+        "subjects": [
+          {
+            "_id": "68738576ad0cd043a5139c29",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 68,
+            "accuracy": 100
+          },
+          {
+            "_id": "68738576ad0cd043a5139c2a",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333
+          },
+          {
+            "_id": "68738576ad0cd043a5139c2b",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 59,
+            "accuracy": 76.1904761904762
+          }
+        ],
+        "userId": {
+          "_id": "686c92a26bc6e83c52f36afd",
+          "name": "Abhiraj",
+          "profilePicture": "https://ui-avatars.com/api/?name=Abhiraj"
+        },
+        "marksGained": 212,
+        "marksLost": 9,
+        "unansweredMarks": 52,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 191,
+        "_id": "689a3092ac94672d09666168",
+        "totalMarkScored": 203,
+        "accuracy": 91.2280701754386,
+        "subjects": [
+          {
+            "_id": "689a3092ac94672d09666163",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 100
+          },
+          {
+            "_id": "689a3092ac94672d09666164",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 82.6086956521739
+          },
+          {
+            "_id": "689a3092ac94672d09666165",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          }
+        ],
+        "userId": {
+          "_id": "67890913980348f3f20549ba",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKrDGfaGkLEQNHISI4oGtmA3tUBEUElppszJSax7aBv9rwZ7w=s96-c",
+          "name": "Yashaswi Singh"
+        },
+        "marksGained": 208,
+        "marksLost": 5,
+        "unansweredMarks": 72,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 76,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 192,
+        "userId": {
+          "_id": "689f57d90556cf24e9efafa1",
+          "name": "Jishnu Aryan Sahoo",
+          "profilePicture": "https://ui-avatars.com/api/?name=Jishnu%20Aryan%20Sahoo"
+        },
+        "totalMarkScored": 203,
+        "accuracy": 98.0769230769231,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 100,
+            "_id": "68aa80909ad34f574de45a40"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 63,
+            "accuracy": 94.1176470588235,
+            "_id": "68aa80909ad34f574de45a41"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 100,
+            "_id": "68aa80909ad34f574de45a42"
+          }
+        ],
+        "_id": "68aa80909ad34f574de47a49",
+        "marksGained": 204,
+        "marksLost": 1,
+        "unansweredMarks": 92,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 64,
+          "607018ee404ae53194e73d91": 76
+        }
+      },
+      {
+        "rank": 193,
+        "userId": {
+          "_id": "684d9bbf6376bdb271f93f4f",
+          "name": "Harsh Mishra",
+          "profilePicture": "https://ui-avatars.com/api/?name=Harsh%20Mishra"
+        },
+        "totalMarkScored": 203,
+        "accuracy": 91.2280701754386,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 55,
+            "accuracy": 93.3333333333333,
+            "_id": "68c5a0a91c6d3f890871a5f4"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 82,
+            "accuracy": 91.304347826087,
+            "_id": "68c5a0a91c6d3f890871a5f5"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 66,
+            "accuracy": 89.4736842105263,
+            "_id": "68c5a0a91c6d3f890871a5f6"
+          }
+        ],
+        "_id": "68c5a0a91c6d3f890871ccc5",
+        "marksGained": 208,
+        "marksLost": 5,
+        "unansweredMarks": 72,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 56,
+          "607018ee404ae53194e73d90": 84,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 194,
+        "_id": "689050458aa3dc518ea0dbf8",
+        "totalMarkScored": 202,
+        "accuracy": 84.1269841269841,
+        "subjects": [
+          {
+            "_id": "689050458aa3dc518ea0dbf3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 61,
+            "accuracy": 84.2105263157895
+          },
+          {
+            "_id": "689050458aa3dc518ea0dbf4",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "689050458aa3dc518ea0dbf5",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381
+          }
+        ],
+        "userId": {
+          "_id": "688658e2542ad0446d702d13",
+          "name": "Aryan",
+          "profilePicture": "https://ui-avatars.com/api/?name=Aryan"
+        },
+        "marksGained": 212,
+        "marksLost": 10,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 64,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 195,
+        "userId": {
+          "_id": "664b66aefac17ad40c247c1e",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK1IDpZA3Zo0kc7bBHJxlpx-0YnUC9oC6AAjNKfdmZPj6uVZQ=s96-c",
+          "name": "Unnat Krishna"
+        },
+        "totalMarkScored": 202,
+        "accuracy": 84.1269841269841,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 49,
+            "accuracy": 81.25,
+            "_id": "68c6613fe3c473d284cb29c6"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304,
+            "_id": "68c6613fe3c473d284cb29c7"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 76,
+            "accuracy": 83.3333333333333,
+            "_id": "68c6613fe3c473d284cb29c8"
+          }
+        ],
+        "_id": "68c6613fe3c473d284cb51a1",
+        "marksGained": 212,
+        "marksLost": 10,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 196,
+        "_id": "68735aaffefcb643152c5aed",
+        "totalMarkScored": 202,
+        "accuracy": 84.1269841269841,
+        "subjects": [
+          {
+            "_id": "68735aaffefcb643152c5ae8",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 48,
+            "accuracy": 76.4705882352941
+          },
+          {
+            "_id": "68735aaffefcb643152c5ae9",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          },
+          {
+            "_id": "68735aaffefcb643152c5aea",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 77,
+            "accuracy": 86.9565217391304
+          }
+        ],
+        "userId": {
+          "_id": "686a814a15a3103d825ee130",
+          "name": "Supratik M Mahabare",
+          "profilePicture": "https://ui-avatars.com/api/?name=Supratik%20M%20Mahabare"
+        },
+        "marksGained": 212,
+        "marksLost": 10,
+        "unansweredMarks": 48,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 52,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 197,
+        "userId": {
+          "_id": "68bb0f170b844dd8fdfb300b",
+          "name": "Ketak Ekade",
+          "profilePicture": "https://ui-avatars.com/api/?name=Ketak%20"
+        },
+        "totalMarkScored": 202,
+        "accuracy": 89.6551724137931,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 46,
+            "accuracy": 85.7142857142857,
+            "_id": "68c67189d0f954ad6dece6fa"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68c67189d0f954ad6dece6fb"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 78,
+            "accuracy": 90.9090909090909,
+            "_id": "68c67189d0f954ad6dece6fc"
+          }
+        ],
+        "_id": "68c67189d0f954ad6ded0fb7",
+        "marksGained": 208,
+        "marksLost": 6,
+        "unansweredMarks": 68,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 48,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 80
+        }
+      },
+      {
+        "rank": 198,
+        "_id": "6898495062a18b2bd9f9bbf8",
+        "totalMarkScored": 201,
+        "accuracy": 94.4444444444444,
+        "subjects": [
+          {
+            "_id": "6898495062a18b2bd9f9bbf3",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444
+          },
+          {
+            "_id": "6898495062a18b2bd9f9bbf4",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 72,
+            "accuracy": 100
+          },
+          {
+            "_id": "6898495062a18b2bd9f9bbf5",
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 62,
+            "accuracy": 88.8888888888889
+          }
+        ],
+        "userId": {
+          "_id": "6890cd66d07b355395c52c60",
+          "name": "Janvi",
+          "profilePicture": "https://ui-avatars.com/api/?name=Janvi"
+        },
+        "marksGained": 204,
+        "marksLost": 3,
+        "unansweredMarks": 84,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 64
+        }
+      },
+      {
+        "rank": 199,
+        "userId": {
+          "_id": "68790737f64d044243d79639",
+          "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKPrMvYk7WWmfF1bbaM-qD8LjBESxIfJEW24rFkgA6Hm73YAyo=s96-c",
+          "name": "Atul"
+        },
+        "totalMarkScored": 201,
+        "accuracy": 88.135593220339,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 67,
+            "accuracy": 94.4444444444444,
+            "_id": "68c689d94cee360dd2ac4382"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 70,
+            "accuracy": 90,
+            "_id": "68c689d94cee360dd2ac4383"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 80.952380952381,
+            "_id": "68c689d94cee360dd2ac4384"
+          }
+        ],
+        "_id": "68c689d94cee360dd2ac6d47",
+        "marksGained": 208,
+        "marksLost": 7,
+        "unansweredMarks": 64,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 68,
+          "607018ee404ae53194e73d90": 72,
+          "607018ee404ae53194e73d91": 68
+        }
+      },
+      {
+        "rank": 200,
+        "userId": {
+          "_id": "674dd1fc461c05e3266ea4fb",
+          "name": "Kishlaya Kumar",
+          "profilePicture": "https://ui-avatars.com/api/?name=Kishlaya%20Kumar"
+        },
+        "totalMarkScored": 201,
+        "accuracy": 94.4444444444444,
+        "subjects": [
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d92",
+              "title": "Mathematics"
+            },
+            "totalMarkScored": 58,
+            "accuracy": 88.2352941176471,
+            "_id": "68c6654127e7fa1f794a20db"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d90",
+              "title": "Physics"
+            },
+            "totalMarkScored": 79,
+            "accuracy": 95.2380952380952,
+            "_id": "68c6654127e7fa1f794a20dc"
+          },
+          {
+            "subjectId": {
+              "_id": "607018ee404ae53194e73d91",
+              "title": "Chemistry"
+            },
+            "totalMarkScored": 64,
+            "accuracy": 100,
+            "_id": "68c6654127e7fa1f794a20dd"
+          }
+        ],
+        "_id": "68c6654127e7fa1f794a4900",
+        "marksGained": 204,
+        "marksLost": 3,
+        "unansweredMarks": 84,
+        "subjectWiseMarks": {
+          "607018ee404ae53194e73d92": 60,
+          "607018ee404ae53194e73d90": 80,
+          "607018ee404ae53194e73d91": 64
+        }
+      }
+    ]
+  },
+  "totalPages": 32,
+  "totalResults": 3176,
+  "lastRank": 3176,
+  "test": {
+    "_id": "680cf88117fd01001982d466",
+    "title": "Quizrr Part Test (QPT) - 1",
+    "totalTime": 180,
+    "totalQuestions": 75,
+    "totalMarks": 300,
+    "bonusQuestions": null,
+    "bonusMarks": null,
+    "startDate": "2025-05-11T03:30:00.000Z",
+    "endDate": "2026-08-31T18:29:59.000Z",
+    "isDetailAvailableInstantly": true,
+    "detailAccessDate": "2025-05-11T03:30:00.000Z",
+    "type": "paid",
+    "instruction": "608289ffb160b022e9442c83"
+  },
+  "userRank": {
+    "rank": 1877,
+    "userId": {
+      "profilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJGaiwYNLV_WZYochXE9mkXxzkZK9S8qfsMWcnHOB_BWS671w=s96-c",
+      "name": "RISHAV CHOUDHARY",
+      "_id": "678a2be74d3506f3cbc1c600"
+    },
+    "totalMarkScored": 64,
+    "accuracy": 51.219512195122,
+    "subjects": [
+      {
+        "subjectId": {
+          "_id": "607018ee404ae53194e73d92",
+          "title": "Mathematics"
+        },
+        "totalMarkScored": 13,
+        "accuracy": 41.6666666666667
+      },
+      {
+        "subjectId": {
+          "_id": "607018ee404ae53194e73d90",
+          "title": "Physics"
+        },
+        "totalMarkScored": 17,
+        "accuracy": 46.1538461538462
+      },
+      {
+        "subjectId": {
+          "_id": "607018ee404ae53194e73d91",
+          "title": "Chemistry"
+        },
+        "totalMarkScored": 34,
+        "accuracy": 62.5
+      }
+    ],
+    "marksGained": 84,
+    "marksLost": 20,
+    "unansweredMarks": 136
+  }
+}
