@@ -6,9 +6,9 @@ type Student = {
   userId: {
     _id: string;
     name: string;
-    profilePicture: string;
+    profilePicture?: string;
   };
-  subjects: {
+  subjects?: {
     subjectId: {
       title: string;
     };
@@ -26,8 +26,8 @@ type LeaderboardTableProps = {
   setCurrentPage: (page: number) => void;
   totalPages: number;
   loading: boolean;
-  headerRef: React.RefObject<HTMLDivElement>;
-  bodyRef: React.RefObject<HTMLDivElement>;
+  headerRef: React.RefObject<HTMLDivElement | null>;
+  bodyRef: React.RefObject<HTMLDivElement | null>;
   onScroll: (e: React.UIEvent<HTMLDivElement>) => void;
   screenSize: ScreenSize;
   getGridColumns: () => string;
