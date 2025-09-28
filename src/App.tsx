@@ -1,78 +1,132 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeftIcon,MoonIcon,SunDimIcon } from '@phosphor-icons/react';
+import { useState, useEffect, useRef } from 'react';
+import { ArrowLeftIcon, MoonIcon, SunDimIcon } from '@phosphor-icons/react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import LeaderboardTable from './components/LeaderboardTable';
 import BottomDiv from './components/BottomDiv';
-const TopCards = ({ data, isDark }) => {
+
+interface Subject {
+  subjectId: {
+    title: string;
+  };
+  totalMarkScored: number;
+}
+
+interface User {
+  _id: string;
+  name: string;
+  profilePicture?: string;
+}
+
+interface Student {
+  userId: User;
+  rank: number;
+  totalMarkScored: number;
+  accuracy: number;
+  subjects?: Subject[];
+}
+
+interface RankStyles {
+  style: {
+    background: string;
+    borderTop: string;
+    borderLeft: string;
+    borderRight: string;
+    borderBottom: string;
+    borderTopLeftRadius: string;
+    borderTopRightRadius: string;
+  };
+  rankBg: string;
+  rankColor: string;
+  medalSrc: string | null;
+}
+
+interface TopCardsProps {
+  data: Student[];
+  isDark: boolean;
+}
+
+interface ApiResponse {
+  success: boolean;
+  data: {
+    results: Student[];
+  };
+  totalPages: number;
+}
+
+type ScreenSize = 'mobile' | 'tablet' | 'desktop';
+
+const TopCards: React.FC<TopCardsProps> = ({ data }) => {
   const topThree = data.slice(0, 3);
-const getRankStyles = (rank: any) => {
-  switch(rank) {
-    case 1:
-      return {
-        style: {
-          background: 'var(--rank1-bg)',
-          borderTop: '1px solid #FFC721',
-          borderLeft: '1px solid #FFC721',
-          borderRight: '1px solid #FFC721',
-          borderBottom: 'none', 
-          borderTopLeftRadius: '40px',
-          borderTopRightRadius: '40px',
-        },
-       rankBg: 'var(--rank2-rank-bg)',
-        rankColor: 'var(--rank1-rank-color)',
-        medalSrc: './1st.png' 
-      };
-    case 2:
-      return {
-        style: {
-          background: 'var(--rank2-bg)',
-          borderTop: '1px solid #8593A6',
-          borderLeft: '1px solid #8593A6',
-          borderRight: '1px solid #8593A6',
-          borderBottom: 'none',
-           borderTopLeftRadius: '40px',
-          borderTopRightRadius: '40px',
-        },
-        rankBg: 'var(--rank2-rank-bg)',
-        rankColor: 'var(--rank2-rank-color)',
-        medalSrc: './2.png'  
-      };
-    case 3:
-      return {
-        style: {
-          background: 'var(--rank3-bg)',
-          borderTop: '1px solid #F54A00',
-          borderLeft: '1px solid #F54A00',
-          borderRight: '1px solid #F54A00',
-          borderBottom: 'none',
-          borderTopLeftRadius: '40px',
-          borderTopRightRadius: '40px',
-        },
-           rankBg: 'var(--rank2-rank-bg)',
-        rankColor: 'var(--rank2-rank-color)',
-        medalSrc: './3.png'  
-      };
-    default:
-      return {
-        style: {
-          background: 'var(--q3-surface-dim)',
-          borderTop: '1px solid #EAF3FA',
-          borderLeft: '1px solid #EAF3FA',
-          borderRight: '1px solid #EAF3FA',
-          borderBottom: 'none',
-           borderTopLeftRadius: '40px',
-          borderTopRightRadius: '40px',
-        },
-        rankBg: 'var(--q3-surface-dimmer)',
-        rankColor: 'var(--q3-neutral-light)',
-        medalSrc: null
-      };
-  }
-};
+
+  const getRankStyles = (rank: number): RankStyles => {
+    switch(rank) {
+      case 1:
+        return {
+          style: {
+            background: 'var(--rank1-bg)',
+            borderTop: '1px solid #FFC721',
+            borderLeft: '1px solid #FFC721',
+            borderRight: '1px solid #FFC721',
+            borderBottom: 'none', 
+            borderTopLeftRadius: '40px',
+            borderTopRightRadius: '40px',
+          },
+          rankBg: 'var(--rank2-rank-bg)',
+          rankColor: 'var(--rank1-rank-color)',
+          medalSrc: './1st.png' 
+        };
+      case 2:
+        return {
+          style: {
+            background: 'var(--rank2-bg)',
+            borderTop: '1px solid #8593A6',
+            borderLeft: '1px solid #8593A6',
+            borderRight: '1px solid #8593A6',
+            borderBottom: 'none',
+            borderTopLeftRadius: '40px',
+            borderTopRightRadius: '40px',
+          },
+          rankBg: 'var(--rank2-rank-bg)',
+          rankColor: 'var(--rank2-rank-color)',
+          medalSrc: './2.png'  
+        };
+      case 3:
+        return {
+          style: {
+            background: 'var(--rank3-bg)',
+            borderTop: '1px solid #F54A00',
+            borderLeft: '1px solid #F54A00',
+            borderRight: '1px solid #F54A00',
+            borderBottom: 'none',
+            borderTopLeftRadius: '40px',
+            borderTopRightRadius: '40px',
+          },
+          rankBg: 'var(--rank2-rank-bg)',
+          rankColor: 'var(--rank2-rank-color)',
+          medalSrc: './3.png'  
+        };
+      default:
+        return {
+          style: {
+            background: 'var(--q3-surface-dim)',
+            borderTop: '1px solid #EAF3FA',
+            borderLeft: '1px solid #EAF3FA',
+            borderRight: '1px solid #EAF3FA',
+            borderBottom: 'none',
+            borderTopLeftRadius: '40px',
+            borderTopRightRadius: '40px',
+          },
+          rankBg: 'var(--q3-surface-dimmer)',
+          rankColor: 'var(--q3-neutral-light)',
+          medalSrc: null
+        };
+    }
+  };
+
   return (
     <div className="hidden lg:grid grid-cols-4 gap-4 mb-6 mt-6 rounded-4xl">
-      {topThree.map((student: any, index) => {
+      {topThree.map((student: Student, index: number) => {
         const styles = getRankStyles(student.rank);
         const physicsScore = student.subjects?.find(s => s.subjectId?.title === 'Physics')?.totalMarkScored || 0;
         const chemScore = student.subjects?.find(s => s.subjectId?.title === 'Chemistry')?.totalMarkScored || 0;
@@ -80,7 +134,7 @@ const getRankStyles = (rank: any) => {
         
         return (
           <div 
-            key={student.userId._id} 
+            key={student.userId._id + index} 
             className="p-4 space-y-3 overflow-hidden relative"
             style={{
               ...styles.style,
@@ -272,21 +326,21 @@ const getRankStyles = (rank: any) => {
   );
 };
  
-const LeaderboardApp = () => {
+const LeaderboardApp: React.FC = () => {
   const [isDark, setIsDark] = useState<boolean>(false);
-  const [data, setData] = useState<any>([]);
-  const [topPerformers, setTopPerformers] = useState<any>([]);
+  const [data, setData] = useState<Student[]>([]);
+  const [topPerformers, setTopPerformers] = useState<Student[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<null | string>();
-  const headerRef = useRef<any>(null);
-  const bodyRef = useRef<any>(null);
-  const userStripRef = useRef<any>(null);
-  const [screenSize, setScreenSize] = useState('desktop');
+  const [error, setError] = useState<string | null>(null);
+  const headerRef = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const userStripRef = useRef<HTMLDivElement>(null);
+  const [screenSize, setScreenSize] = useState<ScreenSize>('desktop');
 
   useEffect(() => {
-    const checkScreenSize = () => {
+    const checkScreenSize = (): void => {
       if (window.innerWidth < 640) setScreenSize('mobile');
       else if (window.innerWidth < 1024) setScreenSize('tablet');
       else setScreenSize('desktop');
@@ -296,34 +350,37 @@ const LeaderboardApp = () => {
     return () => window.removeEventListener('resize', checkScreenSize);
   }, []);
 
-  const handleScroll = (e:any) => {
-    const scrollLeft = e.target.scrollLeft;
-    if (headerRef.current && headerRef.current !== e.target) {
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>): void => {
+    const target = e.target as HTMLDivElement;
+    const scrollLeft = target.scrollLeft;
+    if (headerRef.current && headerRef.current !== target) {
       headerRef.current.scrollLeft = scrollLeft;
     }
-    if (bodyRef.current && bodyRef.current !== e.target) {
+    if (bodyRef.current && bodyRef.current !== target) {
       bodyRef.current.scrollLeft = scrollLeft;
     }
-    if (userStripRef.current && userStripRef.current !== e.target) {
+    if (userStripRef.current && userStripRef.current !== target) {
       userStripRef.current.scrollLeft = scrollLeft;
     }
   };
 
-  const getGridColumns = () => {
+  const getGridColumns = (): string => {
     switch (screenSize) {
       case 'mobile': return 'minmax(120px, 1fr) 90px 60px 60px 60px 70px';
       case 'tablet': return '50px minmax(140px, 1fr) 120px 70px 70px 70px 80px';
       default: return '80px minmax(200px, 1fr) 150px 100px 100px 100px 100px';
     }
   };
-  const getMinWidth = () => {
+
+  const getMinWidth = (): string => {
     switch (screenSize) {
       case 'mobile': return '540px';
       case 'tablet': return '600px';
       default: return '830px';
     }
   };
-  const getFontSize = () => {
+
+  const getFontSize = (): string => {
     switch (screenSize) {
       case 'mobile': return 'text-xs';
       case 'tablet': return 'text-xs';
@@ -331,22 +388,23 @@ const LeaderboardApp = () => {
     }
   };
 
-  const fetchLeaderboardData = async (page: number) => {
+  const fetchLeaderboardData = async (page: number): Promise<void> => {
     try {
       setLoading(true);
       setError(null);
       const response = await fetch(`https://api.quizrr.in/api/hiring/leaderboard?page=${page}&limit=100`);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      const result = await response.json();
+      const result: ApiResponse = await response.json();
       if (result.success && result.data) {
         setData(result.data.results || []);
-        setTotalPages(result.totalPages || 1)
+        setTotalPages(result.totalPages || 1);
       } else {
         throw new Error('Invalid API response structure');
       }
     } catch (err) {
       console.error('Error fetching leaderboard data:', err);
-      setError(err.message);
+      const errorMessage = err instanceof Error ? err.message : 'Unknown error occurred';
+      setError(errorMessage);
       setData([]);
       setTotalPages(1);
     } finally {
@@ -355,17 +413,17 @@ const LeaderboardApp = () => {
   };
 
   useEffect(() => {
-    const fetchTopThree = async () => {
-        try {
-            const response = await fetch(`https://api.quizrr.in/api/hiring/leaderboard?page=1&limit=3`);
-            if (!response.ok) throw new Error('Failed to fetch top performers');
-            const result = await response.json();
-            if (result.success && result.data) {
-                setTopPerformers(result.data.results || []);
-            }
-        } catch (err) {
-            console.error("Error fetching top performers:", err);
+    const fetchTopThree = async (): Promise<void> => {
+      try {
+        const response = await fetch(`https://api.quizrr.in/api/hiring/leaderboard?page=1&limit=3`);
+        if (!response.ok) throw new Error('Failed to fetch top performers');
+        const result: ApiResponse = await response.json();
+        if (result.success && result.data) {
+          setTopPerformers(result.data.results || []);
         }
+      } catch (err) {
+        console.error("Error fetching top performers:", err);
+      }
     };
     fetchTopThree();
   }, []); 
@@ -382,11 +440,11 @@ const LeaderboardApp = () => {
     }
   }, [isDark]);
 
-  const toggleTheme = () => setIsDark(!isDark);
-  const handlePageChange = (page: number) => setCurrentPage(page);
+  const toggleTheme = (): void => setIsDark(!isDark);
+  const handlePageChange = (page: number): void => setCurrentPage(page);
 
   return (
-  <div className="min-h-screen transition-colors" style={{ backgroundColor: 'var(--q3-surface-default)', color: 'var(--q3-neutral-default)' }}>
+    <div className="min-h-screen transition-colors" style={{ backgroundColor: 'var(--q3-surface-default)', color: 'var(--q3-neutral-default)' }}>
       <div className="max-w-7xl mx-auto p-2 sm:p-2 pb-6">
         <div className="flex items-center justify-between mb-6">
           <div className="flex flex-col gap-2 sm:gap-3">
@@ -405,22 +463,22 @@ const LeaderboardApp = () => {
               JEE Main Test series / Qatar Part Test / Qatar Part Test DPP 11 - 1 CMU / Analysis / Leaderboard
             </p>
           </div>
-      <Button 
-        onClick={toggleTheme} 
-        variant="outline" 
-        size="sm"
-        className="cursor-pointer flex items-center gap-2"
-        style={{ 
-          borderColor: 'var(--q3-stroke-normal)', 
-          color: 'var(--q3-neutral-default)',
-          backgroundColor: 'transparent'
-        }}
-      >
-        {isDark ? <SunDimIcon size={18} /> : <MoonIcon size={18} />}
-        <span className="hidden sm:inline">
-          {isDark ? 'Light' : 'Dark'}
-        </span>
-      </Button>
+          <Button 
+            onClick={toggleTheme} 
+            variant="outline" 
+            size="sm"
+            className="cursor-pointer flex items-center gap-2"
+            style={{ 
+              borderColor: 'var(--q3-stroke-normal)', 
+              color: 'var(--q3-neutral-default)',
+              backgroundColor: 'transparent'
+            }}
+          >
+            {isDark ? <SunDimIcon size={18} /> : <MoonIcon size={18} />}
+            <span className="hidden sm:inline">
+              {isDark ? 'Light' : 'Dark'}
+            </span>
+          </Button>
         </div>
 
         {topPerformers.length > 0 && <TopCards data={topPerformers} isDark={isDark} />}
@@ -450,7 +508,7 @@ const LeaderboardApp = () => {
           </div>
         )}
 
-     <LeaderboardTable 
+        <LeaderboardTable 
           data={data} 
           currentPage={currentPage}
           setCurrentPage={handlePageChange}
