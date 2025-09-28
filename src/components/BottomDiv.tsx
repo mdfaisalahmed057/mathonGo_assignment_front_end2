@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 type ScreenSize = "mobile" | "tablet" | "desktop" | null;
 
 type BottomDivProps = {
-  userStripRef: React.RefObject<HTMLDivElement>;
+  userStripRef: React.RefObject<HTMLDivElement | null>;
   onScroll: (e: React.UIEvent<HTMLDivElement>) => void;
   screenSize: ScreenSize;
   getGridColumns: () => string;
@@ -75,7 +75,7 @@ const BottomDiv: React.FC<BottomDivProps> = ({
                 </div>
 
                 <div className="font-medium text-right text-xs">
-                  <div className="inline-block bg-white py-1 px-3 rounded-full">
+                  <div className="inline-block py-1 px-3 rounded-full">
                     <span className="text-[var(--q3-neutral-default)]">
                       199
                     </span>{" "}
@@ -97,8 +97,8 @@ const BottomDiv: React.FC<BottomDivProps> = ({
                   <div
                     className="flex items-center justify-center w-8 h-8 rounded-full text-xs font-bold"
                     style={{
-                      backgroundColor: "#FFFFFF",
-                      color: "var(--q3-neutral-light)",
+                        backgroundColor: 'var(--q3-surface-dimmer)',
+                      color: 'var(--q3-neutral-light)',
                     }}
                   >
                     73
@@ -127,7 +127,7 @@ const BottomDiv: React.FC<BottomDivProps> = ({
                 </div>
 
                 <div className="font-medium text-right">
-                  <div className="inline-block bg-white py-1 px-3 rounded-full">
+                  <div className="inline-block bg-[var(--q3-surface-dim)] py-1 px-3 rounded-full">
                     <span className="text-[var(--q3-neutral-default)]">
                       199
                     </span>{" "}
